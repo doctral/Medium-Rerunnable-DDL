@@ -1,0 +1,14 @@
+################# Deployment Instruction For Creating New Table ############## 
+
+1) Open a command prompt window on a machine with SQL Server installed
+2) Change directory to this folder
+3) Execute the following command with the fullname of your SQL Server: deploy.bat "[SQL_Server_Name]"
+i.e: deploy.bat "DESKTOP-RE9835C\SQL2017"
+
+################# Rollback Instruction #######################################
+IMPORTANT: only run this script when instructed to do so for a rollback 
+
+1) Open a command prompt window on a machine with SQL Server installed
+2) Change directory to this folder
+3) Execute the following command with the fullname of your SQL Server: rollback.bat "[SQL_Server_Name]"
+i.e: rollback.bat "DESKTOP-RE9835C\SQL2017"
